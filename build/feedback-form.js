@@ -27,7 +27,7 @@
                 link: function (scope, element, attrs) {
 
                 },
-                template: "<div class=\"btn btn-primary feedback\" data-toggle=\"modal\" data-target=\"#{{modalId}}\">{{buttonText}}</div>"
+                template: "<button type=\"button\" class=\"btn btn-primary feedback\" data-toggle=\"modal\" data-target=\"#{{modalId}}\">{{buttonText}}</button>"
             }
         }])
 
