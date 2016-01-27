@@ -66,7 +66,7 @@
                 link: function (scope, element, attrs) {
                     $(element).on('show.bs.modal', function (e) {
                         scope.feedback = {user: scope.user};
-                        $scope.succesMessage = null;
+                        scope.succesMessage = null;
                         scope.feedbackForm.$setPristine();
                         scope.$apply();
                         angular.element('#user').trigger('focus');
