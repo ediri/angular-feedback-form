@@ -1,1 +1,6 @@
-.feedback{transform:rotate(-90deg);border:none;outline:0;text-transform:uppercase;padding:.3em 1em;position:fixed;top:420px;z-index:1;left:-35px;border-top-left-radius:0;border-top-right-radius:0}
+/*!
+ * angular-feedback-form v0.0.1
+ * https://github.com/ediri/angular-feedback-form
+ * Copyright (c) 2016 ediri
+ * License: MIT
+ */.feedback{transform:rotate(-90deg);border:none;outline:0;text-transform:uppercase;padding:.3em 1em;position:fixed;top:420px;z-index:1;left:-35px;border-top-left-radius:0;border-top-right-radius:0}.alert-float{position:absolute;width:80%;left:65px;top:10px}
