@@ -92,7 +92,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
-    grunt.registerTask('default', ['jshint', 'karma:unit', 'ngAnnotate', 'uglify', 'cssmin', 'concat:build']);
+    grunt.registerTask('default', ['jshint', 'ngAnnotate', 'uglify', 'cssmin', 'concat:build']);
     grunt.registerTask('build', ['default']);
 
 };
