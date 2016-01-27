@@ -1,10 +1,10 @@
 /*
- * angular-scroll-to-top
+ * angular-feedback-form
  *
- * Angular JS ScrollToTop Button
+ * Angular JS Feedback Button with a basic Feedback Form
  *
  * (c) 2015 ediri
- * License: Apache License 2.0
+ * MIT Licenese
  */
 
 (function () {
@@ -19,7 +19,7 @@
             link: function (scope, element, attrs) {
 
             },
-            template:"<div id=\"feedback\" >{{buttonText}}</div>"
+            template: "<div id=\"feedback\" >{{buttonText}}</div>"
         }
             ;
     }]);
