@@ -13,13 +13,14 @@
     angular.module('feedbackForm', []).directive('feedbackbutton', ['$window', function ($window) {
         return {
             restrict: 'E',
+            replace: true,
             scope: {
                 buttonText: '@'
             },
             link: function (scope, element, attrs) {
 
             },
-            template: "<div id=\"feedback\" >{{buttonText}}</div>"
+            template: "<div class=\"btn btn-primary feedback\" >{{buttonText}}</div>"
         }
             ;
     }]);
