@@ -1,0 +1,13 @@
+.feedback {
+    transform: rotate(-90deg);
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    padding: 0.3em 1em;
+    position: fixed;
+    top:420px;
+    z-index: 1;
+    left:-35px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}

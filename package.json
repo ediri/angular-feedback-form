@@ -1,0 +1,31 @@
+{
+  "name": "angular-feedback-form",
+  "author": "ediri",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Angular JS ScrollToTop Button",
+  "homepage": "https://github.com/ediri/angular-feedback-form",
+  "main": "build/feedback-form.js",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "feedback",
+    "modal",
+    "ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ediri/angular-feedback-form.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ediri/angular-feedback-form/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-cssmin": "^0.13.0",
+    "grunt-contrib-jshint": "~0.11.3",
+    "grunt-contrib-uglify": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1",
+  }
+}
