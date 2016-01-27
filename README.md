@@ -3,6 +3,8 @@ angular-feedback-form
 ===================
 Angular JS Feedback Button with a basic Feedback Form
 
+[![Build Status](https://travis-ci.org/ediri/angular-feedback-form.svg?branch=master)](https://travis-ci.org/ediri/angular-feedback-form)
+
 **Requirements**: 
 
 - Angular 1.4+ 
