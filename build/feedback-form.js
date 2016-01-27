@@ -56,8 +56,7 @@
                         if (form.$valid) {
                             angular.element('#submitFeedbackButton').prop('disabled', true);
                             $http.post($scope.postUrl, $scope.feedback).success(function (data, status, headers, config) {
-                                // angular.element('#' + $scope.modalId).modal('hide');
-                                $scope.succesMessage = "Danke für das Feedback! Das Fenster schliesst automatisch in 5 Sekunden."
+                                $scope.succesMessage = "Thanks for providing your feedback! This window will automatically close in 5 seconds.";
                                 $timeout(function () {
                                     angular.element('#' + $scope.modalId).modal('hide')
                                 }, 5000);
@@ -72,7 +71,7 @@
                 link: function (scope, element, attrs) {
                     $(element).on('show.bs.modal', function (e) {
                         scope.feedback = {user: scope.user};
-                        $scope.succesMessage = null;
+                        scope.succesMessage = null;
                         scope.feedbackForm.$setPristine();
                         scope.$apply();
                         angular.element('#user').trigger('focus');
